@@ -1,0 +1,27 @@
+.headerline {
+    background-color: $light-series;
+    padding: 71px 0px 40px;
+    text-align: center;
+}
+
+.headerline-title {
+    color: $purple;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.headerline-img {
+    margin-bottom: 25px;
+}
+
+.headerline-btn {
+    display: inline-block;
+    color: $white;
+    background-color: $purple;
+    padding: 22px 118px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
