@@ -11,7 +11,7 @@
   outline: none; /* Убираем обводку */
 }
 
-button {
+button, img {
   cursor: pointer;
 }
 
@@ -102,4 +102,57 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
+}
+
+.news {
+  padding: 87px 0px 150px;
+}
+
+.news-title {
+  color: rgb(113, 113, 113);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.news-text {
+  color: rgb(10, 10, 10);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.news-texts {
+  max-width: 560px;
+}
+
+.news-subtitle {
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.news-inner {
+  text-align: center;
+}
+
+.news-texts {
+  text-align: left;
+}
+
+.news-img {
+  width: 350px;
+  height: 370px;
+}
+
+.news-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }/*# sourceMappingURL=index.css.map */
