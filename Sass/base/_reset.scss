@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    input:focus, button:focus {
+        outline: none; /* Убираем обводку */
+    }  
+    background: none;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}

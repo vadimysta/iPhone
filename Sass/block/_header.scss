@@ -1,0 +1,32 @@
+.header {
+    background-color: $black;
+    padding: 33px 0px 32px;
+    color: $series;
+    
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 30px;
+    }
+
+    .nav-link {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .header__tel-number {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
