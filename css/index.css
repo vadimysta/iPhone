@@ -197,4 +197,85 @@ body {
   color: rgb(10, 10, 10);
   font-size: 14px;
   font-weight: 400;
+}
+
+.contacts-inner {
+  background-color: rgb(87, 75, 99);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.contacts-form {
+  padding: 138px 93px;
+  text-align: left;
+  text-align: center;
+}
+
+.contacts-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 72px;
+}
+
+.contacts-input {
+  display: block;
+  font-family: "Inter", sans-serif;
+  width: 400px;
+  height: 28px;
+  border-bottom: 1px solid rgb(245, 245, 245);
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contacts-input::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  font-family: "Inter", sans-serif;
+}
+
+.contacts-input::-moz-placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  font-family: "Inter", sans-serif;
+}
+
+.contacts-input:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  font-family: "Inter", sans-serif;
+}
+
+.contacts-input::-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  font-family: "Inter", sans-serif;
+}
+
+.contacts-input::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  font-family: "Inter", sans-serif;
+}
+
+.contacts-subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  opacity: 0.5;
+}
+
+.contacts-btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(73, 14, 132);
+  width: 240px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 30px;
 }/*# sourceMappingURL=index.css.map */

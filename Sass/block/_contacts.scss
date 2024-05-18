@@ -1,0 +1,54 @@
+.contacts-inner {
+    background-color: $deep-purple;
+    display: flex;
+    width: 100%;
+}
+
+.contacts-form {
+    padding: 138px 93px;
+    text-align: left;
+    text-align: center;
+}
+
+.contacts-title {
+    color: $white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 72px;
+}
+
+.contacts-input {
+    display: block;
+    font-family: "Inter", sans-serif;
+    width: 400px;
+    height: 28px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    margin-bottom: 30px;
+    color: $white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contacts-input::placeholder {
+    color: $white;
+    opacity: 0.5;
+    font-family: "Inter", sans-serif;
+}
+
+.contacts-subtitle {
+    color: $white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+
+.contacts-btn {
+    background-color: $white;
+    color: $purple;
+    width: 240px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 30px;
+}
