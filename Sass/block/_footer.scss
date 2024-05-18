@@ -1,0 +1,26 @@
+.footer {
+    background-color: $black;
+    padding: 40px 0px 40px;
+    color: $series;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-link {
+    font-size: 14px;
+    font-weight: 400;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.footer__tel-number {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: right;
+    flex-grow: 1;
+    flex-basis: 0;
+}

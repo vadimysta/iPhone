@@ -278,4 +278,43 @@ body {
   font-size: 14px;
   font-weight: 700;
   border-radius: 30px;
+}
+
+.footer {
+  background-color: rgb(10, 10, 10);
+  padding: 40px 0px 40px;
+  color: rgb(113, 113, 113);
+}
+
+.footer-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-link {
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+}
+
+.footer__tel-number {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
 }/*# sourceMappingURL=index.css.map */
